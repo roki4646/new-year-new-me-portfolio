@@ -6,12 +6,13 @@
 
 
 /* Common shared style */
-body{
+body {
     font-family: 'Work Sans', sans-serif;
-    
+
 }
- /* Header Section */
-.header{
+
+/* Header Section */
+.header {
     background-image: url('images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,31 +21,35 @@ body{
     height: 100vh;
 }
 
-.banner-inside{
+.banner-inside {
     text-align: right;
     width: 500px;
     margin-right: 215px;
 }
 
-.greeting{
+.greeting {
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-top: 215px;
     padding-bottom: 24px;
- }
- .greeting-des{
+}
+
+.greeting-des {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;   
+    line-height: 26px;
     padding-bottom: 35px;
- }
-.greeting, .greeting-des {
+}
+
+.greeting,
+.greeting-des {
     color: #FFF;
 }
-.btn{
+
+.btn {
     color: #005FAC;
     font-size: 20px;
     font-style: normal;
@@ -60,3 +65,53 @@ body{
 }
 
 
+/* main section style */
+
+/* failures section */
+
+.failures-container{
+    display: flex;
+    margin: 80px 215px;
+    justify-content: space-between;
+    align-items: center;
+}
+.person{
+    height: 850px;
+}
+.failures{
+    padding-left: 150px;
+    justify-content: space-around;
+}
+
+.failures-check {
+    list-style: none;
+    padding-top: 28px;
+}
+.failures-title{
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 280px;
+}
+.failures-des{
+    padding-top: 28px;
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.ckeck{
+    padding-top: 15px;
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.fa-solid{
+    color: #16D887;
+    margin-right: 8px;
+}
