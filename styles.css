@@ -212,6 +212,7 @@ body {
 .Subscriber-container{
     display: flex;
     padding: 150px 215px;
+    justify-content: space-between;
   
 }
 .future{
@@ -234,13 +235,7 @@ body {
     padding-right: 30%;
     padding-top: 25px;
 }
-.Subscriber{
-    width: 50%;
-    margin-left: 45%;
-    
-    
 
-}
 .subscribe-title{
     color: #FFF;
     font-size: 25px;
@@ -255,7 +250,7 @@ body {
 .email-box{
     background: #151414;
     border: 1px solid white;
-    padding: 30px 0px 30px 30px;
+    padding: 20px 0px 20px 30px;
     width: 300px;
     color: #ffffff;
     font-size: 18px;
@@ -263,6 +258,8 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+
 .sub-btn{
     margin-top: 30px;
     border-radius: 8px;
@@ -273,4 +270,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.social{
+    margin-top:30px;
+    margin-right: 18px;
 }
